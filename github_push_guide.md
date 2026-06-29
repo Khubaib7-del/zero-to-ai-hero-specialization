@@ -193,4 +193,34 @@ git push
 ```
 
 ---
+
+## 📝 Practical Example: Pushing Only `Day1_EX1.py`
+
+If you modified `Day1_EX1.py` and also made some local changes to `github_push_guide.md`, but only want to push the Python exercise file:
+
+### 1. Check workspace status
+```bash
+git status
+```
+*This will list both `Day1_EX1.py` and `github_push_guide.md` as modified (red).*
+
+### 2. Stage only the Python file
+*(Remember to wrap the path in double quotes since the folder names have spaces)*
+```bash
+git add "AI Engineering Masterclass From Zero to AI Hero/Course-2_Core Machine Learning & Evaluation/Week-5_Introduction to Machine Learning/DAY1-Machine Leaning Basics and Terminology/Day1_EX1.py"
+```
+
+### 3. Verify the staging area
+```bash
+git status
+```
+*This will show `Day1_EX1.py` in green (ready to commit) and `github_push_guide.md` in red (ignored for now).*
+
+### 4. Commit and Push
+```bash
+git commit -m "Update coding exercises in Day1_EX1.py"
+git push
+```
+
+---
 *Happy learning! You are now on your way to becoming an AI Hero!* 🚀
