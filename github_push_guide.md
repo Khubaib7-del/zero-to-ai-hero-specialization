@@ -124,6 +124,47 @@ git push -u origin main
 
 ---
 
+## 🎯 How to Stage and Push Specific Files or Folders
+
+In Git, you don't "push" a file directly in isolation. Instead, you control what gets uploaded by choosing what to **add (stage)** to your next commit. 
+
+Here is how you target specific files or folders instead of staging everything:
+
+### 1. Stage a Specific File in the Main Directory
+If you only want to commit a file in the main folder (like `README.md`):
+```bash
+git add README.md
+```
+
+### 2. Stage a Specific File inside a Sub-Directory
+For files inside sub-folders, provide the path to that file. 
+*💡 **Tip:** Always wrap paths in double quotes `""` if they contain spaces!*
+```bash
+git add "AI Engineering Masterclass From Zero to AI Hero/Course-2_Core Machine Learning & Evaluation/Week-5_Introduction to Machine Learning/DAY1-Machine Leaning Basics and Terminology/Day1_EX1.py"
+```
+
+### 3. Stage a Specific Folder (and everything inside it)
+If you want to stage a whole day's folder (including the Python file and the Word document inside it) but nothing else:
+```bash
+git add "AI Engineering Masterclass From Zero to AI Hero/Course-2_Core Machine Learning & Evaluation/Week-5_Introduction to Machine Learning/DAY1-Machine Leaning Basics and Terminology"
+```
+
+### 4. Verify What is Staged
+Before committing, always run:
+```bash
+git status
+```
+Make sure **only** the specific file or folder you wanted is listed in green (staged). Any files listed in red (untracked/modified) will not be included in the commit.
+
+### 5. Commit and Push
+Now commit and push just those staged changes:
+```bash
+git commit -m "Update specific files for Course 2 Week 5 Day 1"
+git push
+```
+
+---
+
 ## 📈 workflow for Future Days (How to update GitHub)
 
 As you complete new weeks and days, you will want to update your GitHub repository. Here is the daily workflow you will use:
