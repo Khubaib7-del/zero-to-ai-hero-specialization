@@ -223,4 +223,30 @@ git push
 ```
 
 ---
+
+## ⏪ How to Undo / Rollback a Commit (Reset)
+
+If you make a local commit and want to undo it before pushing it to GitHub, Git uses the `git reset` command. Here are the three ways to rollback:
+
+### 1. The Safest Undo (Keeps changes & stays staged)
+Undoes the commit but **keeps all your file edits** in the staging area (files remain green).
+```bash
+git reset --soft HEAD~1
+```
+*Use this when you made a typo in the commit message or forgot to stage another file.*
+
+### 2. Undo and Unstage (Keeps changes in files)
+Undoes the commit and **unstages** the files (files turn red), but **keeps all your edits**.
+```bash
+git reset HEAD~1
+```
+
+### 3. The Dangerous Undo (Destroys changes)
+Undoes the commit and **permanently deletes** all your local changes, returning files to the previous commit state.
+```bash
+git reset --hard HEAD~1
+```
+*⚠️ WARNING: You will lose all your work from the undone commit!*
+
+---
 *Happy learning! You are now on your way to becoming an AI Hero!* 🚀
