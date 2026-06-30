@@ -27,14 +27,21 @@ d:/Coursera/
 ├── README.md                # Main repository documentation
 └── AI Engineering Masterclass From Zero to AI Hero/
       ├── Course-1_Foundations of AI Engineering/
-      │     └── Week-1/
-      │           ├── Day-1/
-      │           │     ├── main.py        # Python file for coding exercises
-      │           │     └── notes.docx     # Word document for conceptual notes
-      │           └── Day-2/
-      │                 └── ...
+      │     ├── Week1/
+      │     ├── Week2/
+      │     ├── Week3/
+      │     └── Week4/
       ├── Course-2_Core Machine Learning & Evaluation/
+      │     ├── Week-5_Introduction to Machine Learning/
+      │     ├── Week-6_Feature Engineering and Model Evaluation/
+      │     ├── Week-7_Advanced Machine Learning Algorithms/
+      │     └── Week-8_Model Tuning and Optimization/
       └── Course-3_Deep Learning & Modern AI Architecture/
+            ├── Week9/
+            ├── Week10/
+            ├── Week11/
+            ├── Week12/
+            └── Week13/
 ```
 
 ---
@@ -60,8 +67,8 @@ source .venv/bin/activate
 ### 3. Running Code Exercises
 Navigate to the specific course, week, and day directory, then run the python files:
 ```bash
-cd "AI Engineering Masterclass From Zero to AI Hero/Course-1_Foundations of AI Engineering/Week-1/Day-1"
-python main.py
+cd "AI Engineering Masterclass From Zero to AI Hero/Course-2_Core Machine Learning & Evaluation/Week-5_Introduction to Machine Learning/DAY1-Machine Leaning Basics and Terminology"
+python Day1_EX1.py
 ```
 
 ---
