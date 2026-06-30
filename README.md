@@ -77,7 +77,9 @@ python Day1_EX1.py
 
 | Course | Week | Day | Topic / Focus | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| Course 1 | Week 1 | Day 1 | Course Introduction & Setup | ⏳ In Progress |
+| Course 2 | Week 5 | Day 1 | Machine Learning Basics and Terminology | ✅ Completed |
+| Course 2 | Week 5 | Day 2 | Supervised Learning and Regression Models | ✅ Completed |
+| Course 2 | Week 5 | Day 3 | Advanced Regression Models & Regularization | ✅ Completed |
 
 ---
 
