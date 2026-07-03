@@ -84,6 +84,7 @@ python Day1_EX1.py
 | Course 2 | Week 5 | Day 5 | Model Evaluation and Cross-Validation | ✅ Completed |
 | Course 2 | Week 5 | Day 6 | k-Nearest Neighbours (k-NN) Algorithm | ✅ Completed |
 | Course 2 | Week 5 | Day 7 | Supervised Learning Mini Project | ✅ Completed |
+| **Week 5 Completed** |
 
 
 ---
