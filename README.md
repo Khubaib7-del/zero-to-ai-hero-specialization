@@ -80,6 +80,11 @@ python Day1_EX1.py
 | Course 2 | Week 5 | Day 1 | Machine Learning Basics and Terminology | ✅ Completed |
 | Course 2 | Week 5 | Day 2 | Supervised Learning and Regression Models | ✅ Completed |
 | Course 2 | Week 5 | Day 3 | Advanced Regression Models & Regularization | ✅ Completed |
+| Course 2 | Week 5 | Day 4 | Introduction to Classification and Logistic Regression | ✅ Completed |
+| Course 2 | Week 5 | Day 5 | Model Evaluation and Cross-Validation | ✅ Completed |
+| Course 2 | Week 5 | Day 6 | k-Nearest Neighbours (k-NN) Algorithm | ✅ Completed |
+| Course 2 | Week 5 | Day 7 | Supervised Learning Mini Project | ✅ Completed |
+
 
 ---
 
